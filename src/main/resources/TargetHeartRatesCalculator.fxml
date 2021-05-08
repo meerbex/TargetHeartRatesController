@@ -33,7 +33,7 @@
                   <Label fx:id="mhtResult" text="0" textFill="WHITE" />
                </children>
             </VBox>
-            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: blue;" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <children>
                   <Label fx:id="thtrResult" text="0" textFill="WHITE" />
                </children>

@@ -23,8 +23,8 @@ public class TargetHeartRatesController {
         float age = Float.parseFloat(ageTextField.getText());;
 
         float HRmax = 220 - age;
-        double THTmax = HRmax*0.85;
-        double THTmin = HRmax*0.5;
+        int THTmax = (int) (HRmax*0.85);
+        int THTmin = (int) (HRmax*0.5);
 
         mhtResult.setText(HRmax+" bpm");
         thtrResult.setText(THTmin + " - " + THTmax +" bpm");

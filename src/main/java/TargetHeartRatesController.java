@@ -3,6 +3,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 
 public class TargetHeartRatesController {
 
@@ -36,9 +37,12 @@ public class TargetHeartRatesController {
         catch(Exception e) {
             if (e.getMessage() == "empty String"){
                 justText.setText("Your age can not be empty");
+                justText.setTextFill(Color.color(255, 0, 0));
             }
             else {
                 justText.setText("Your age must be in numbers");
+                justText.setTextFill(Color.color(255, 0, 0));
+
             }
         }
 
